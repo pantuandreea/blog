@@ -1,0 +1,21 @@
+#add-article-button {
+  width: 1280px;
+  margin: 0px auto;
+  overflow: hidden;
+  background-color: var(--bg-color);
+}
+
+button.button {
+  width: 300px;
+  border-radius: 50px;
+  border: 1px solid var(--primary-color-font);
+  height: 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--font-color);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  line-height: 18px;
+  background-color: var(--bg-color);
+  cursor: pointer;
+}

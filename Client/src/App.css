@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-color: #1e1e1e;
+  --primary-color-font: #9b9b9b;
+  --secondary-color-font: #000;
+  --bg-color: #fff;
+  --pink: #ffe3e3;
+  --moon: #9b9b9b;
+  --sun: #fff;
+  --disabled-color: #e6e6e6;
+}
+[data-theme="dark"] {
+  --font-color: #CBCBD4;
+  --primary-color-font: #818181;
+  --secondary-color-font: #818CAB;
+  --bg-color: #1A1A1F;
+  --pink: #494E5C;
+  --moon: #1A1A1F;
+  --sun: #9B9B9B;
+  --disabled-color: #494E5C;
+}
+
+.theme {
+  background-color: var(--bg-color);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.text-center {
+  text-align: center;
+  font-family: 'Montserrat';
+  color: var(--secondary-color-font);
+}
+
+#root {
+  width: 1280px;
+  margin: 0px auto;
+  overflow: hidden;
+  background-color: var(--bg-color);
+}

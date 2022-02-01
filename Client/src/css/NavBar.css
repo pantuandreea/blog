@@ -1,0 +1,33 @@
+nav.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 130px;
+  margin-top: 100px;
+}
+
+ul.nav__container {
+  display: flex;
+  color: var(--secondary-color-font);
+}
+
+li.nav__item {
+  margin-left: 100px;
+}
+
+.nav__link {
+  color: var(--font-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+.add__container {
+  text-align: right;
+  height: 60px;
+  margin-bottom: 90px;
+}

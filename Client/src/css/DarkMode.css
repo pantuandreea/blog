@@ -1,0 +1,42 @@
+.theme-switch-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+    margin-right: 25px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.icons {
+    margin-top: 5px;
+    display: flex;
+    border: 1px solid var(--primary-color-font);
+    border-radius: 35px;
+    width: 85px;
+    cursor: pointer;
+}
+
+.fa-moon,
+.fa-sun {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.fa-moon {
+    color: var(--moon);
+}
+
+.fa-sun {
+    color: var(--sun);
+}

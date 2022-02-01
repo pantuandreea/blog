@@ -1,0 +1,131 @@
+.modal__overlay {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.add-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-color);
+  width: 1000px;
+  height: 750px;
+  outline: 1px solid var(--primary-color-font);
+  box-shadow: 0px 0px 26px 6px;
+}
+
+h2.title.modal-title {
+  font-family: "Montserrat-Regular";
+}
+
+.inputs__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 75px;
+    font-size: 18px;
+}
+
+input.input {
+  font-family: "Cardo-Regular";
+  width: 400px;
+  height: 35px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid var(--primary-color-font);
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+textarea.textarea {
+  width: 850px;
+  line-height: 25px;
+  padding-left: 10px;
+  color: var(--font-color);
+  border: 1px solid var(--primary-color-font);
+  border-radius: 5px;
+  font-family: "Cardo-Regular", serif;
+  background-color: var(--bg-color);
+  text-align: left;
+}
+
+.textarea {
+  margin: 15px auto 0 auto;
+  text-align: center;
+}
+
+.textarea .error {
+  margin-left:75px !important;
+}
+
+.modal__buttons {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.close-modal {
+  color: var(--font-color) !important;
+}
+
+button.button.button--pink {
+  background: var(--pink);
+}
+
+button.button.button--disabled {
+  background: var(--primary-color-font);
+  cursor:not-allowed;
+}
+
+p.saying {
+  margin: 75px 0px;
+  padding: 104px 1px;
+  background: var(--pink);
+  width: 100%;
+  color: var(--font-color);
+  font-size: 28px;
+  font-style: italic;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  line-height: 30px;
+  letter-spacing: 0px;
+}
+
+.point::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: var(--primary-color-font);
+  position: absolute;
+  left: -21px;
+  top: 8px;
+}
+
+.point::after {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 100%;
+  background: var(--primary-color-font);
+  position: absolute;
+  right: -22px;
+  top: 8px;
+}
+
+.error {
+  margin: 0;
+  color:red;
+  font-weight: bold;
+}

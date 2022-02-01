@@ -1,0 +1,29 @@
+button.footer__link {
+  border: none;
+  background: var(--bg-color);
+  font-size: 34px;
+  line-height: 42px;
+  color: var(--font-color);
+  cursor: pointer;
+  display: block;
+}
+
+footer.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+}
